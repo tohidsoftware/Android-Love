@@ -1,5 +1,5 @@
 [versions]
-agp = "8.6.0"
+agp = "8.6.1"
 kotlin = "1.9.0"
 coreKtx = "1.13.1"
 junit = "4.13.2"
@@ -12,12 +12,12 @@ composeBom = "2024.09.01"
 appcompat = "1.7.0"
 lifecycleViewmodelCompose = "2.8.5"
 mapsCompose = "6.1.0"
-material = "1.12.0"
 navigationCompose = "2.8.0"
 playServicesLocation = "21.3.0"
 playServicesMaps = "19.0.0"
 secretsGradlePlugin = "2.0.1"
 testng = "6.9.6"
+materialVersion = "1.12.0"
 
 [libraries]
 androidx-adaptive = { module = "androidx.compose.material3.adaptive:adaptive" }
@@ -56,6 +56,7 @@ ui-test-manifest = { module = "androidx.compose.ui:ui-test-manifest" }
 ui-tooling = { module = "androidx.compose.ui:ui-tooling" }
 ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
 testng = { group = "org.testng", name = "testng", version.ref = "testng" }
+material = { group = "com.google.android.material", name = "material", version.ref = "materialVersion" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

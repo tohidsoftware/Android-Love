@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "AndroidLove"
 include(":app")
 include(":map:presentation")
+include(":main:presentation")
