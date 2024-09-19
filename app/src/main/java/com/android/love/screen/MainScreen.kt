@@ -11,7 +11,7 @@ import com.android.love.utils.BottomNavigationBar
 
 @Composable
 fun MainScreen(navHostController: NavHostController) {
-    Scaffold(
+    /*Scaffold(
         bottomBar = {
             BottomAppBar(modifier = Modifier) {
                 BottomNavigationBar(navHostController = navHostController)
@@ -20,5 +20,7 @@ fun MainScreen(navHostController: NavHostController) {
     ) { innerPadding ->
         val padding = innerPadding
         Navigation(navHostController = navHostController)
-    }
+    }*/
+
+    com.android.love.main.presentation.MainScreen()
 }

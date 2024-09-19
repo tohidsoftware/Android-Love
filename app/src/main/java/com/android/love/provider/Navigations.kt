@@ -13,7 +13,6 @@ import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.android.love.map.presentation.AndroidLoveMap
 
 
 @Composable
@@ -25,7 +24,7 @@ fun Navigation(navHostController: NavHostController) {
     ) {
 
         composable(NavigationItem.Map.route) {
-            AndroidLoveMap()
+            //AndroidLoveMap()
         }
 
         composable(NavigationItem.Media.route) {
